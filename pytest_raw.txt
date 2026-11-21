@@ -1,0 +1,53 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.16, pytest-9.0.2, pluggy-1.6.0 -- /home/z/.venv/bin/python3
+cachedir: .pytest_cache
+metadata: {'Python': '3.12.16', 'Platform': 'Linux-5.10.134-013.15.kangaroo.al8.x86_64-x86_64-with-glibc2.41', 'Packages': {'pytest': '9.0.2', 'pluggy': '1.6.0'}, 'Plugins': {'Faker': '40.1.2', 'metadata': '3.1.1', 'asyncio': '1.3.0', 'ddtrace': '4.2.2', 'cov': '7.0.0', 'json-report': '1.5.0', 'anyio': '4.13.0'}}
+rootdir: /home/z
+configfile: pyproject.toml
+plugins: Faker-40.1.2, metadata-3.1.1, asyncio-1.3.0, ddtrace-4.2.2, cov-7.0.0, json-report-1.5.0, anyio-4.13.0
+asyncio: mode=Mode.STRICT, debug=False, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collecting ... collected 40 items
+
+tests/test_business_analysis.py::test_kpis_are_finite_and_positive PASSED [  2%]
+tests/test_business_analysis.py::test_sales_by_category_three_categories PASSED [  5%]
+tests/test_business_analysis.py::test_sales_by_region_four_regions PASSED [  7%]
+tests/test_business_analysis.py::test_monthly_sales_trend_is_monotonic_in_time PASSED [ 10%]
+tests/test_business_analysis.py::test_loss_making_subcategories_returns_dataframe PASSED [ 12%]
+tests/test_business_analysis.py::test_top_products_returns_top_n PASSED  [ 15%]
+tests/test_business_analysis.py::test_segment_performance_returns_dataframe PASSED [ 17%]
+tests/test_business_analysis.py::test_build_business_summary_keys PASSED [ 20%]
+tests/test_dashboard.py::test_business_summary_artifact_valid_json PASSED [ 22%]
+tests/test_dashboard.py::test_model_metrics_artifact_valid_json PASSED   [ 25%]
+tests/test_dashboard.py::test_forecast_artifact_csv PASSED               [ 27%]
+tests/test_dashboard.py::test_feature_importance_artifact_csv PASSED     [ 30%]
+tests/test_dashboard.py::test_alerts_artifact_valid_json PASSED          [ 32%]
+tests/test_dashboard.py::test_recommendations_artifact_valid_json PASSED [ 35%]
+tests/test_data_loader.py::test_load_dataset_returns_dataframe PASSED    [ 37%]
+tests/test_data_loader.py::test_required_columns_present PASSED          [ 40%]
+tests/test_data_loader.py::test_validate_columns_raises_on_missing PASSED [ 42%]
+tests/test_data_loader.py::test_clean_dataset_drops_nulls_and_parses_dates PASSED [ 45%]
+tests/test_data_loader.py::test_convert_dates_with_us_format PASSED      [ 47%]
+tests/test_data_loader.py::test_handle_missing_values_returns_drop_report PASSED [ 50%]
+tests/test_data_loader.py::test_data_summary_keys PASSED                 [ 52%]
+tests/test_data_loader.py::test_load_and_clean_pipeline PASSED           [ 55%]
+tests/test_predictive_alerts.py::test_generate_alerts_returns_summary_and_lists PASSED [ 57%]
+tests/test_predictive_alerts.py::test_detect_loss_categories_returns_negative_profit_only PASSED [ 60%]
+tests/test_predictive_alerts.py::test_detect_declining_months_negative_pct_change PASSED [ 62%]
+tests/test_predictive_alerts.py::test_detect_anomaly_months_has_zscore PASSED [ 65%]
+tests/test_predictive_alerts.py::test_detect_low_profit_categories_threshold PASSED [ 67%]
+tests/test_predictive_alerts.py::test_alert_severity_values_valid PASSED [ 70%]
+tests/test_recommendations.py::test_build_recommendations_has_summary_and_lists PASSED [ 72%]
+tests/test_recommendations.py::test_recommend_profitable_categories_returns_top PASSED [ 75%]
+tests/test_recommendations.py::test_flag_weak_regions_uses_margin_threshold PASSED [ 77%]
+tests/test_recommendations.py::test_loss_making_fixes_reference_negative_profit PASSED [ 80%]
+tests/test_recommendations.py::test_recommend_sales_growth_returns_actions PASSED [ 82%]
+tests/test_recommendations.py::test_priority_ordering_high_first PASSED  [ 85%]
+tests/test_sales_prediction.py::test_build_monthly_dataset_shape PASSED  [ 87%]
+tests/test_sales_prediction.py::test_compute_metrics_values PASSED       [ 90%]
+tests/test_sales_prediction.py::test_naive_baseline_persistence PASSED   [ 92%]
+tests/test_sales_prediction.py::test_train_and_compare_returns_three_models PASSED [ 95%]
+tests/test_sales_prediction.py::test_forecast_next_n_months_returns_three_months PASSED [ 97%]
+tests/test_sales_prediction.py::test_forecast_with_short_history_returns_empty PASSED [100%]
+
+============================== 40 passed in 7.24s ==============================
+

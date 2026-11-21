@@ -1,0 +1,585 @@
+{
+  "kpis": {
+    "Total Sales ($)": 2297200.8603000003,
+    "Total Profit ($)": 286397.0217,
+    "Total Orders": 5009,
+    "Total Customers": 793,
+    "Avg Order Value ($)": 458.61466566180883,
+    "Profit Margin (%)": 12.467217240315602
+  },
+  "sales_by_category": [
+    {
+      "Category": "Technology",
+      "Sales": 836154.033,
+      "Profit": 145454.9481,
+      "Orders": 1544,
+      "Quantity": 6939.0,
+      "Profit Margin (%)": 17.4
+    },
+    {
+      "Category": "Furniture",
+      "Sales": 741999.7953,
+      "Profit": 18451.2728,
+      "Orders": 1764,
+      "Quantity": 8028.0,
+      "Profit Margin (%)": 2.49
+    },
+    {
+      "Category": "Office Supplies",
+      "Sales": 719047.032,
+      "Profit": 122490.8008,
+      "Orders": 3742,
+      "Quantity": 22906.0,
+      "Profit Margin (%)": 17.04
+    }
+  ],
+  "sales_by_region": [
+    {
+      "Region": "West",
+      "Sales": 725457.8245,
+      "Profit": 108418.4489,
+      "Orders": 1611,
+      "Profit Margin (%)": 14.94
+    },
+    {
+      "Region": "East",
+      "Sales": 678781.24,
+      "Profit": 91522.78,
+      "Orders": 1401,
+      "Profit Margin (%)": 13.48
+    },
+    {
+      "Region": "Central",
+      "Sales": 501239.8908,
+      "Profit": 39706.3625,
+      "Orders": 1175,
+      "Profit Margin (%)": 7.92
+    },
+    {
+      "Region": "South",
+      "Sales": 391721.905,
+      "Profit": 46749.4303,
+      "Orders": 822,
+      "Profit Margin (%)": 11.93
+    }
+  ],
+  "sales_by_subcategory": [
+    {
+      "Category": "Technology",
+      "Sub-Category": "Phones",
+      "Sales": 330007.054,
+      "Profit": 44515.7306,
+      "Quantity": 3289.0
+    },
+    {
+      "Category": "Furniture",
+      "Sub-Category": "Chairs",
+      "Sales": 328449.103,
+      "Profit": 26590.1663,
+      "Quantity": 2356.0
+    },
+    {
+      "Category": "Office Supplies",
+      "Sub-Category": "Storage",
+      "Sales": 223843.608,
+      "Profit": 21278.8264,
+      "Quantity": 3158.0
+    },
+    {
+      "Category": "Furniture",
+      "Sub-Category": "Tables",
+      "Sales": 206965.532,
+      "Profit": -17725.4811,
+      "Quantity": 1241.0
+    },
+    {
+      "Category": "Office Supplies",
+      "Sub-Category": "Binders",
+      "Sales": 203412.733,
+      "Profit": 30221.7633,
+      "Quantity": 5974.0
+    },
+    {
+      "Category": "Technology",
+      "Sub-Category": "Machines",
+      "Sales": 189238.631,
+      "Profit": 3384.7569,
+      "Quantity": 440.0
+    },
+    {
+      "Category": "Technology",
+      "Sub-Category": "Accessories",
+      "Sales": 167380.318,
+      "Profit": 41936.6357,
+      "Quantity": 2976.0
+    },
+    {
+      "Category": "Technology",
+      "Sub-Category": "Copiers",
+      "Sales": 149528.03,
+      "Profit": 55617.8249,
+      "Quantity": 234.0
+    },
+    {
+      "Category": "Furniture",
+      "Sub-Category": "Bookcases",
+      "Sales": 114879.9963,
+      "Profit": -3472.556,
+      "Quantity": 868.0
+    },
+    {
+      "Category": "Office Supplies",
+      "Sub-Category": "Appliances",
+      "Sales": 107532.16100000001,
+      "Profit": 18138.005400000002,
+      "Quantity": 1729.0
+    },
+    {
+      "Category": "Furniture",
+      "Sub-Category": "Furnishings",
+      "Sales": 91705.164,
+      "Profit": 13059.1436,
+      "Quantity": 3563.0
+    },
+    {
+      "Category": "Office Supplies",
+      "Sub-Category": "Paper",
+      "Sales": 78479.206,
+      "Profit": 34053.5693,
+      "Quantity": 5178.0
+    },
+    {
+      "Category": "Office Supplies",
+      "Sub-Category": "Supplies",
+      "Sales": 46673.538,
+      "Profit": -1189.0995,
+      "Quantity": 647.0
+    },
+    {
+      "Category": "Office Supplies",
+      "Sub-Category": "Art",
+      "Sales": 27118.792,
+      "Profit": 6527.787,
+      "Quantity": 3000.0
+    },
+    {
+      "Category": "Office Supplies",
+      "Sub-Category": "Envelopes",
+      "Sales": 16476.402,
+      "Profit": 6964.1767,
+      "Quantity": 906.0
+    },
+    {
+      "Category": "Office Supplies",
+      "Sub-Category": "Labels",
+      "Sales": 12486.312,
+      "Profit": 5546.254,
+      "Quantity": 1400.0
+    },
+    {
+      "Category": "Office Supplies",
+      "Sub-Category": "Fasteners",
+      "Sales": 3024.28,
+      "Profit": 949.5182,
+      "Quantity": 914.0
+    }
+  ],
+  "monthly_sales_trend": [
+    {
+      "YearMonth": "2015-01-01",
+      "Sales": 14236.895,
+      "Profit": 2450.1907,
+      "Orders": 32
+    },
+    {
+      "YearMonth": "2015-02-01",
+      "Sales": 4519.892,
+      "Profit": 862.3084,
+      "Orders": 28
+    },
+    {
+      "YearMonth": "2015-03-01",
+      "Sales": 55691.009,
+      "Profit": 498.7299,
+      "Orders": 71
+    },
+    {
+      "YearMonth": "2015-04-01",
+      "Sales": 28295.345,
+      "Profit": 3488.8352,
+      "Orders": 66
+    },
+    {
+      "YearMonth": "2015-05-01",
+      "Sales": 23648.287,
+      "Profit": 2738.7096,
+      "Orders": 69
+    },
+    {
+      "YearMonth": "2015-06-01",
+      "Sales": 34595.1276,
+      "Profit": 4976.5244,
+      "Orders": 66
+    },
+    {
+      "YearMonth": "2015-07-01",
+      "Sales": 33946.393,
+      "Profit": -841.4826000000002,
+      "Orders": 65
+    },
+    {
+      "YearMonth": "2015-08-01",
+      "Sales": 27909.4685,
+      "Profit": 5318.105,
+      "Orders": 72
+    },
+    {
+      "YearMonth": "2015-09-01",
+      "Sales": 81777.3508,
+      "Profit": 8328.0994,
+      "Orders": 130
+    },
+    {
+      "YearMonth": "2015-10-01",
+      "Sales": 31453.393,
+      "Profit": 3448.2573,
+      "Orders": 78
+    },
+    {
+      "YearMonth": "2015-11-01",
+      "Sales": 78628.7167,
+      "Profit": 9292.1269,
+      "Orders": 151
+    },
+    {
+      "YearMonth": "2015-12-01",
+      "Sales": 69545.6205,
+      "Profit": 8983.5699,
+      "Orders": 141
+    },
+    {
+      "YearMonth": "2016-01-01",
+      "Sales": 18174.0756,
+      "Profit": -3281.007,
+      "Orders": 29
+    },
+    {
+      "YearMonth": "2016-02-01",
+      "Sales": 11951.411,
+      "Profit": 2813.8508,
+      "Orders": 36
+    },
+    {
+      "YearMonth": "2016-03-01",
+      "Sales": 38726.252,
+      "Profit": 9732.0978,
+      "Orders": 79
+    },
+    {
+      "YearMonth": "2016-04-01",
+      "Sales": 34195.2085,
+      "Profit": 4187.4962,
+      "Orders": 72
+    },
+    {
+      "YearMonth": "2016-05-01",
+      "Sales": 30131.6865,
+      "Profit": 4667.869,
+      "Orders": 74
+    },
+    {
+      "YearMonth": "2016-06-01",
+      "Sales": 24797.292,
+      "Profit": 3335.5572,
+      "Orders": 68
+    },
+    {
+      "YearMonth": "2016-07-01",
+      "Sales": 28765.325,
+      "Profit": 3288.6483,
+      "Orders": 66
+    },
+    {
+      "YearMonth": "2016-08-01",
+      "Sales": 36898.3322,
+      "Profit": 5355.8084,
+      "Orders": 68
+    },
+    {
+      "YearMonth": "2016-09-01",
+      "Sales": 64595.918,
+      "Profit": 8209.1627,
+      "Orders": 140
+    },
+    {
+      "YearMonth": "2016-10-01",
+      "Sales": 31404.9235,
+      "Profit": 2817.366,
+      "Orders": 87
+    },
+    {
+      "YearMonth": "2016-11-01",
+      "Sales": 75972.5635,
+      "Profit": 12474.7884,
+      "Orders": 158
+    },
+    {
+      "YearMonth": "2016-12-01",
+      "Sales": 74919.5212,
+      "Profit": 8016.9659,
+      "Orders": 161
+    },
+    {
+      "YearMonth": "2017-01-01",
+      "Sales": 18542.490999999998,
+      "Profit": 2824.8233,
+      "Orders": 48
+    },
+    {
+      "YearMonth": "2017-02-01",
+      "Sales": 22978.815,
+      "Profit": 5004.5795,
+      "Orders": 45
+    },
+    {
+      "YearMonth": "2017-03-01",
+      "Sales": 51715.875,
+      "Profit": 3611.9680000000003,
+      "Orders": 86
+    },
+    {
+      "YearMonth": "2017-04-01",
+      "Sales": 38750.039000000004,
+      "Profit": 2977.8149,
+      "Orders": 89
+    },
+    {
+      "YearMonth": "2017-05-01",
+      "Sales": 56987.728,
+      "Profit": 8662.1464,
+      "Orders": 108
+    },
+    {
+      "YearMonth": "2017-06-01",
+      "Sales": 40344.534,
+      "Profit": 4750.3781,
+      "Orders": 97
+    },
+    {
+      "YearMonth": "2017-07-01",
+      "Sales": 39261.963,
+      "Profit": 4432.8778999999995,
+      "Orders": 96
+    },
+    {
+      "YearMonth": "2017-08-01",
+      "Sales": 31115.3743,
+      "Profit": 2062.0693,
+      "Orders": 90
+    },
+    {
+      "YearMonth": "2017-09-01",
+      "Sales": 73410.0249,
+      "Profit": 9328.6576,
+      "Orders": 192
+    },
+    {
+      "YearMonth": "2017-10-01",
+      "Sales": 59687.745,
+      "Profit": 16243.142500000002,
+      "Orders": 105
+    },
+    {
+      "YearMonth": "2017-11-01",
+      "Sales": 79411.9658,
+      "Profit": 4011.4075,
+      "Orders": 183
+    },
+    {
+      "YearMonth": "2017-12-01",
+      "Sales": 96999.043,
+      "Profit": 17885.3093,
+      "Orders": 176
+    },
+    {
+      "YearMonth": "2018-01-01",
+      "Sales": 43971.374,
+      "Profit": 7140.4391,
+      "Orders": 69
+    },
+    {
+      "YearMonth": "2018-02-01",
+      "Sales": 20301.1334,
+      "Profit": 1613.8719999999998,
+      "Orders": 53
+    },
+    {
+      "YearMonth": "2018-03-01",
+      "Sales": 58872.3528,
+      "Profit": 14751.891500000002,
+      "Orders": 118
+    },
+    {
+      "YearMonth": "2018-04-01",
+      "Sales": 36521.5361,
+      "Profit": 933.2899999999998,
+      "Orders": 116
+    },
+    {
+      "YearMonth": "2018-05-01",
+      "Sales": 44261.1102,
+      "Profit": 6342.5828,
+      "Orders": 118
+    },
+    {
+      "YearMonth": "2018-06-01",
+      "Sales": 52981.7257,
+      "Profit": 8223.3357,
+      "Orders": 133
+    },
+    {
+      "YearMonth": "2018-07-01",
+      "Sales": 45264.416,
+      "Profit": 6952.6212,
+      "Orders": 111
+    },
+    {
+      "YearMonth": "2018-08-01",
+      "Sales": 63120.888,
+      "Profit": 9040.9557,
+      "Orders": 111
+    },
+    {
+      "YearMonth": "2018-09-01",
+      "Sales": 87866.652,
+      "Profit": 10991.5556,
+      "Orders": 226
+    },
+    {
+      "YearMonth": "2018-10-01",
+      "Sales": 77776.9232,
+      "Profit": 9275.2755,
+      "Orders": 147
+    },
+    {
+      "YearMonth": "2018-11-01",
+      "Sales": 118447.825,
+      "Profit": 9690.1037,
+      "Orders": 261
+    },
+    {
+      "YearMonth": "2018-12-01",
+      "Sales": 83829.3188,
+      "Profit": 8483.346800000001,
+      "Orders": 224
+    }
+  ],
+  "loss_making_subcategories": [
+    {
+      "Category": "Furniture",
+      "Sub-Category": "Tables",
+      "Sales": 206965.532,
+      "Profit": -17725.4811,
+      "Quantity": 1241.0
+    },
+    {
+      "Category": "Furniture",
+      "Sub-Category": "Bookcases",
+      "Sales": 114879.9963,
+      "Profit": -3472.556,
+      "Quantity": 868.0
+    },
+    {
+      "Category": "Office Supplies",
+      "Sub-Category": "Supplies",
+      "Sales": 46673.538,
+      "Profit": -1189.0995,
+      "Quantity": 647.0
+    }
+  ],
+  "top_products": [
+    {
+      "Product Name": "Canon imageCLASS 2200 Advanced Copier",
+      "Sales": 61599.824,
+      "Profit": 25199.928,
+      "Quantity": 20.0
+    },
+    {
+      "Product Name": "Fellowes PB500 Electric Punch Plastic Comb Binding Machine with Manual Bind",
+      "Sales": 27453.384000000002,
+      "Profit": 7753.039,
+      "Quantity": 31.0
+    },
+    {
+      "Product Name": "Cisco TelePresence System EX90 Videoconferencing Unit",
+      "Sales": 22638.48,
+      "Profit": -1811.0784,
+      "Quantity": 6.0
+    },
+    {
+      "Product Name": "HON 5400 Series Task Chairs for Big and Tall",
+      "Sales": 21870.576,
+      "Profit": 5.684341886080802e-14,
+      "Quantity": 39.0
+    },
+    {
+      "Product Name": "GBC DocuBind TL300 Electric Binding System",
+      "Sales": 19823.479,
+      "Profit": 2233.5051000000003,
+      "Quantity": 37.0
+    },
+    {
+      "Product Name": "GBC Ibimaster 500 Manual ProClick Binding System",
+      "Sales": 19024.5,
+      "Profit": 760.9799999999996,
+      "Quantity": 48.0
+    },
+    {
+      "Product Name": "Hewlett Packard LaserJet 3310 Copier",
+      "Sales": 18839.686,
+      "Profit": 6983.8836,
+      "Quantity": 38.0
+    },
+    {
+      "Product Name": "HP Designjet T520 Inkjet Large Format Printer - 24\" Color",
+      "Sales": 18374.895,
+      "Profit": 4094.9766,
+      "Quantity": 12.0
+    },
+    {
+      "Product Name": "GBC DocuBind P400 Electric Binding System",
+      "Sales": 17965.068,
+      "Profit": -1878.1662000000003,
+      "Quantity": 27.0
+    },
+    {
+      "Product Name": "High Speed Automatic Electric Letter Opener",
+      "Sales": 17030.311999999998,
+      "Profit": -262.00480000000005,
+      "Quantity": 11.0
+    }
+  ],
+  "segment_performance": [
+    {
+      "Segment": "Consumer",
+      "Sales": 1161401.345,
+      "Profit": 134119.2092,
+      "Orders": 2586,
+      "Profit Margin (%)": 11.55
+    },
+    {
+      "Segment": "Corporate",
+      "Sales": 706146.3668,
+      "Profit": 91979.134,
+      "Orders": 1514,
+      "Profit Margin (%)": 13.03
+    },
+    {
+      "Segment": "Home Office",
+      "Sales": 429653.1485,
+      "Profit": 60298.6785,
+      "Orders": 909,
+      "Profit Margin (%)": 14.03
+    }
+  ]
+}

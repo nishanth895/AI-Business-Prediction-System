@@ -1,0 +1,158 @@
+{
+  "summary": {
+    "total_recommendations": 10,
+    "high": 4,
+    "medium": 5,
+    "low": 1
+  },
+  "profitable_categories": [
+    {
+      "priority": "HIGH",
+      "category": "Technology",
+      "action": "Expand inventory and marketing for 'Technology'",
+      "evidence": "Total profit $145,454.95 on sales $836,154.03 (margin 17.40%).",
+      "expected_impact": "Increase overall profit by reinforcing the strongest margin engine."
+    },
+    {
+      "priority": "MEDIUM",
+      "category": "Office Supplies",
+      "action": "Expand inventory and marketing for 'Office Supplies'",
+      "evidence": "Total profit $122,490.80 on sales $719,047.03 (margin 17.04%).",
+      "expected_impact": "Increase overall profit by reinforcing the strongest margin engine."
+    },
+    {
+      "priority": "MEDIUM",
+      "category": "Furniture",
+      "action": "Expand inventory and marketing for 'Furniture'",
+      "evidence": "Total profit $18,451.27 on sales $741,999.80 (margin 2.49%).",
+      "expected_impact": "Increase overall profit by reinforcing the strongest margin engine."
+    }
+  ],
+  "weak_regions": [
+    {
+      "priority": "MEDIUM",
+      "region": "Central",
+      "action": "Review pricing & discount strategy in Central region",
+      "evidence": "Sales $501,239.89, profit $39,706.36 (margin 7.92%).",
+      "expected_impact": "Improving this region's margin to the 10% benchmark would add $10,417.63 in profit."
+    }
+  ],
+  "loss_making_fixes": [
+    {
+      "priority": "HIGH",
+      "sub_category": "Tables",
+      "category": "Furniture",
+      "action": "Reduce average discount (currently 26.1%) and review supplier cost for 'Tables'",
+      "evidence": "Loss of $-17,725.48 on sales $206,965.53.",
+      "expected_impact": "Bringing this sub-category back to break-even would lift total profit."
+    },
+    {
+      "priority": "HIGH",
+      "sub_category": "Bookcases",
+      "category": "Furniture",
+      "action": "Reduce average discount (currently 21.1%) and review supplier cost for 'Bookcases'",
+      "evidence": "Loss of $-3,472.56 on sales $114,880.00.",
+      "expected_impact": "Bringing this sub-category back to break-even would lift total profit."
+    },
+    {
+      "priority": "MEDIUM",
+      "sub_category": "Supplies",
+      "category": "Office Supplies",
+      "action": "Reduce average discount (currently 7.7%) and review supplier cost for 'Supplies'",
+      "evidence": "Loss of $-1,189.10 on sales $46,673.54.",
+      "expected_impact": "Bringing this sub-category back to break-even would lift total profit."
+    }
+  ],
+  "sales_growth": [
+    {
+      "priority": "MEDIUM",
+      "action": "Replicate the marketing mix used in 2018-11, the best-performing month ($118,447.82).",
+      "evidence": "Peak monthly sales occurred in 2018-11.",
+      "expected_impact": "Seasonal replication can lift future months by ~10-15%."
+    },
+    {
+      "priority": "HIGH",
+      "action": "Tighten discount policy - 1166 orders had > 30% discount (avg discount 15.6%).",
+      "evidence": "Combined profit on high-discount orders: $-125,006.78.",
+      "expected_impact": "Lowering discounts on these items can directly improve profit."
+    },
+    {
+      "priority": "LOW",
+      "action": "Bundle high-volume 'Binders' with high-margin 'Copiers'.",
+      "evidence": "Binders sold 5974 units; Copiers earned $55,617.82 profit.",
+      "expected_impact": "Cross-sell lifts both volume and blended margin."
+    }
+  ],
+  "all_recommendations": [
+    {
+      "priority": "HIGH",
+      "category": "Technology",
+      "action": "Expand inventory and marketing for 'Technology'",
+      "evidence": "Total profit $145,454.95 on sales $836,154.03 (margin 17.40%).",
+      "expected_impact": "Increase overall profit by reinforcing the strongest margin engine."
+    },
+    {
+      "priority": "HIGH",
+      "sub_category": "Tables",
+      "category": "Furniture",
+      "action": "Reduce average discount (currently 26.1%) and review supplier cost for 'Tables'",
+      "evidence": "Loss of $-17,725.48 on sales $206,965.53.",
+      "expected_impact": "Bringing this sub-category back to break-even would lift total profit."
+    },
+    {
+      "priority": "HIGH",
+      "sub_category": "Bookcases",
+      "category": "Furniture",
+      "action": "Reduce average discount (currently 21.1%) and review supplier cost for 'Bookcases'",
+      "evidence": "Loss of $-3,472.56 on sales $114,880.00.",
+      "expected_impact": "Bringing this sub-category back to break-even would lift total profit."
+    },
+    {
+      "priority": "HIGH",
+      "action": "Tighten discount policy - 1166 orders had > 30% discount (avg discount 15.6%).",
+      "evidence": "Combined profit on high-discount orders: $-125,006.78.",
+      "expected_impact": "Lowering discounts on these items can directly improve profit."
+    },
+    {
+      "priority": "MEDIUM",
+      "category": "Office Supplies",
+      "action": "Expand inventory and marketing for 'Office Supplies'",
+      "evidence": "Total profit $122,490.80 on sales $719,047.03 (margin 17.04%).",
+      "expected_impact": "Increase overall profit by reinforcing the strongest margin engine."
+    },
+    {
+      "priority": "MEDIUM",
+      "category": "Furniture",
+      "action": "Expand inventory and marketing for 'Furniture'",
+      "evidence": "Total profit $18,451.27 on sales $741,999.80 (margin 2.49%).",
+      "expected_impact": "Increase overall profit by reinforcing the strongest margin engine."
+    },
+    {
+      "priority": "MEDIUM",
+      "region": "Central",
+      "action": "Review pricing & discount strategy in Central region",
+      "evidence": "Sales $501,239.89, profit $39,706.36 (margin 7.92%).",
+      "expected_impact": "Improving this region's margin to the 10% benchmark would add $10,417.63 in profit."
+    },
+    {
+      "priority": "MEDIUM",
+      "sub_category": "Supplies",
+      "category": "Office Supplies",
+      "action": "Reduce average discount (currently 7.7%) and review supplier cost for 'Supplies'",
+      "evidence": "Loss of $-1,189.10 on sales $46,673.54.",
+      "expected_impact": "Bringing this sub-category back to break-even would lift total profit."
+    },
+    {
+      "priority": "MEDIUM",
+      "action": "Replicate the marketing mix used in 2018-11, the best-performing month ($118,447.82).",
+      "evidence": "Peak monthly sales occurred in 2018-11.",
+      "expected_impact": "Seasonal replication can lift future months by ~10-15%."
+    },
+    {
+      "priority": "LOW",
+      "action": "Bundle high-volume 'Binders' with high-margin 'Copiers'.",
+      "evidence": "Binders sold 5974 units; Copiers earned $55,617.82 profit.",
+      "expected_impact": "Cross-sell lifts both volume and blended margin."
+    }
+  ]
+}

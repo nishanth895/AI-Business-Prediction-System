@@ -1,0 +1,19 @@
+model,feature,value,kind
+Linear Regression,time_index,-169.975427288552,coefficient
+Linear Regression,month_num,914.3880034976501,coefficient
+Linear Regression,quarter,-6271.322399477612,coefficient
+Linear Regression,sales_lag_1,-0.05063539051230295,coefficient
+Linear Regression,sales_lag_2,-0.16426379771290037,coefficient
+Linear Regression,sales_roll_3,0.2829689925782069,coefficient
+Linear Regression,Quantity,109.13307617575737,coefficient
+Linear Regression,Orders,-298.6875970932142,coefficient
+Linear Regression,AvgDiscount,22751.9400023267,coefficient
+Random Forest,time_index,0.022208716431750097,importance
+Random Forest,month_num,0.037943682509962724,importance
+Random Forest,quarter,0.010448954648975514,importance
+Random Forest,sales_lag_1,0.01821805316422207,importance
+Random Forest,sales_lag_2,0.0170163101337779,importance
+Random Forest,sales_roll_3,0.01468675863732238,importance
+Random Forest,Quantity,0.6880846168233903,importance
+Random Forest,Orders,0.17491999908485062,importance
+Random Forest,AvgDiscount,0.016472908565748467,importance

@@ -1,0 +1,401 @@
+{
+  "summary": {
+    "total_alerts": 23,
+    "high_severity": 13,
+    "medium_severity": 10,
+    "by_type": {
+      "UNUSUAL_TREND": 1,
+      "LOW_PROFIT_CATEGORY": 1,
+      "DECLINING_SALES": 18,
+      "LOSS_MAKING_SUBCATEGORY": 3
+    }
+  },
+  "declining_sales": [
+    {
+      "type": "DECLINING_SALES",
+      "month": "2015-02",
+      "sales": 4519.892,
+      "pct_change_vs_prev_month": -68.25,
+      "severity": "HIGH",
+      "message": "Sales in 2015-02 fell 68.3% vs the previous month."
+    },
+    {
+      "type": "DECLINING_SALES",
+      "month": "2015-04",
+      "sales": 28295.345,
+      "pct_change_vs_prev_month": -49.19,
+      "severity": "HIGH",
+      "message": "Sales in 2015-04 fell 49.2% vs the previous month."
+    },
+    {
+      "type": "DECLINING_SALES",
+      "month": "2015-05",
+      "sales": 23648.287,
+      "pct_change_vs_prev_month": -16.42,
+      "severity": "MEDIUM",
+      "message": "Sales in 2015-05 fell 16.4% vs the previous month."
+    },
+    {
+      "type": "DECLINING_SALES",
+      "month": "2015-08",
+      "sales": 27909.4685,
+      "pct_change_vs_prev_month": -17.78,
+      "severity": "MEDIUM",
+      "message": "Sales in 2015-08 fell 17.8% vs the previous month."
+    },
+    {
+      "type": "DECLINING_SALES",
+      "month": "2015-10",
+      "sales": 31453.393,
+      "pct_change_vs_prev_month": -61.54,
+      "severity": "HIGH",
+      "message": "Sales in 2015-10 fell 61.5% vs the previous month."
+    },
+    {
+      "type": "DECLINING_SALES",
+      "month": "2016-01",
+      "sales": 18174.0756,
+      "pct_change_vs_prev_month": -73.87,
+      "severity": "HIGH",
+      "message": "Sales in 2016-01 fell 73.9% vs the previous month."
+    },
+    {
+      "type": "DECLINING_SALES",
+      "month": "2016-02",
+      "sales": 11951.411,
+      "pct_change_vs_prev_month": -34.24,
+      "severity": "HIGH",
+      "message": "Sales in 2016-02 fell 34.2% vs the previous month."
+    },
+    {
+      "type": "DECLINING_SALES",
+      "month": "2016-06",
+      "sales": 24797.292,
+      "pct_change_vs_prev_month": -17.7,
+      "severity": "MEDIUM",
+      "message": "Sales in 2016-06 fell 17.7% vs the previous month."
+    },
+    {
+      "type": "DECLINING_SALES",
+      "month": "2016-10",
+      "sales": 31404.9235,
+      "pct_change_vs_prev_month": -51.38,
+      "severity": "HIGH",
+      "message": "Sales in 2016-10 fell 51.4% vs the previous month."
+    },
+    {
+      "type": "DECLINING_SALES",
+      "month": "2017-01",
+      "sales": 18542.490999999998,
+      "pct_change_vs_prev_month": -75.25,
+      "severity": "HIGH",
+      "message": "Sales in 2017-01 fell 75.3% vs the previous month."
+    },
+    {
+      "type": "DECLINING_SALES",
+      "month": "2017-04",
+      "sales": 38750.039000000004,
+      "pct_change_vs_prev_month": -25.07,
+      "severity": "MEDIUM",
+      "message": "Sales in 2017-04 fell 25.1% vs the previous month."
+    },
+    {
+      "type": "DECLINING_SALES",
+      "month": "2017-06",
+      "sales": 40344.534,
+      "pct_change_vs_prev_month": -29.2,
+      "severity": "MEDIUM",
+      "message": "Sales in 2017-06 fell 29.2% vs the previous month."
+    },
+    {
+      "type": "DECLINING_SALES",
+      "month": "2017-08",
+      "sales": 31115.3743,
+      "pct_change_vs_prev_month": -20.75,
+      "severity": "MEDIUM",
+      "message": "Sales in 2017-08 fell 20.7% vs the previous month."
+    },
+    {
+      "type": "DECLINING_SALES",
+      "month": "2017-10",
+      "sales": 59687.745,
+      "pct_change_vs_prev_month": -18.69,
+      "severity": "MEDIUM",
+      "message": "Sales in 2017-10 fell 18.7% vs the previous month."
+    },
+    {
+      "type": "DECLINING_SALES",
+      "month": "2018-01",
+      "sales": 43971.374,
+      "pct_change_vs_prev_month": -54.67,
+      "severity": "HIGH",
+      "message": "Sales in 2018-01 fell 54.7% vs the previous month."
+    },
+    {
+      "type": "DECLINING_SALES",
+      "month": "2018-02",
+      "sales": 20301.1334,
+      "pct_change_vs_prev_month": -53.83,
+      "severity": "HIGH",
+      "message": "Sales in 2018-02 fell 53.8% vs the previous month."
+    },
+    {
+      "type": "DECLINING_SALES",
+      "month": "2018-04",
+      "sales": 36521.5361,
+      "pct_change_vs_prev_month": -37.96,
+      "severity": "HIGH",
+      "message": "Sales in 2018-04 fell 38.0% vs the previous month."
+    },
+    {
+      "type": "DECLINING_SALES",
+      "month": "2018-12",
+      "sales": 83829.3188,
+      "pct_change_vs_prev_month": -29.23,
+      "severity": "MEDIUM",
+      "message": "Sales in 2018-12 fell 29.2% vs the previous month."
+    }
+  ],
+  "loss_making_subcategories": [
+    {
+      "type": "LOSS_MAKING_SUBCATEGORY",
+      "sub_category": "Tables",
+      "category": "Furniture",
+      "total_profit": -17725.4811,
+      "total_sales": 206965.532,
+      "severity": "HIGH",
+      "message": "Sub-category 'Tables' (under 'Furniture') has a total loss of $-17,725.48."
+    },
+    {
+      "type": "LOSS_MAKING_SUBCATEGORY",
+      "sub_category": "Bookcases",
+      "category": "Furniture",
+      "total_profit": -3472.556,
+      "total_sales": 114879.9963,
+      "severity": "HIGH",
+      "message": "Sub-category 'Bookcases' (under 'Furniture') has a total loss of $-3,472.56."
+    },
+    {
+      "type": "LOSS_MAKING_SUBCATEGORY",
+      "sub_category": "Supplies",
+      "category": "Office Supplies",
+      "total_profit": -1189.0995,
+      "total_sales": 46673.538,
+      "severity": "HIGH",
+      "message": "Sub-category 'Supplies' (under 'Office Supplies') has a total loss of $-1,189.10."
+    }
+  ],
+  "unusual_trends": [
+    {
+      "type": "UNUSUAL_TREND",
+      "month": "2015-09",
+      "sales": 81777.3508,
+      "rolling_mean_6m": 38361.99531666667,
+      "z_score": 2.0,
+      "severity": "MEDIUM",
+      "message": "Sales in 2015-09 were unusually high (z-score=2.00) vs the 6-month rolling mean."
+    }
+  ],
+  "low_profit_categories": [
+    {
+      "type": "LOW_PROFIT_CATEGORY",
+      "category": "Furniture",
+      "total_sales": 741999.7953,
+      "total_profit": 18451.2728,
+      "margin_pct": 2.49,
+      "severity": "MEDIUM",
+      "message": "Category 'Furniture' has a profit margin of 2.49% (below 5.0% threshold)."
+    }
+  ],
+  "all_alerts": [
+    {
+      "type": "DECLINING_SALES",
+      "month": "2015-02",
+      "sales": 4519.892,
+      "pct_change_vs_prev_month": -68.25,
+      "severity": "HIGH",
+      "message": "Sales in 2015-02 fell 68.3% vs the previous month."
+    },
+    {
+      "type": "DECLINING_SALES",
+      "month": "2015-04",
+      "sales": 28295.345,
+      "pct_change_vs_prev_month": -49.19,
+      "severity": "HIGH",
+      "message": "Sales in 2015-04 fell 49.2% vs the previous month."
+    },
+    {
+      "type": "DECLINING_SALES",
+      "month": "2015-10",
+      "sales": 31453.393,
+      "pct_change_vs_prev_month": -61.54,
+      "severity": "HIGH",
+      "message": "Sales in 2015-10 fell 61.5% vs the previous month."
+    },
+    {
+      "type": "DECLINING_SALES",
+      "month": "2016-01",
+      "sales": 18174.0756,
+      "pct_change_vs_prev_month": -73.87,
+      "severity": "HIGH",
+      "message": "Sales in 2016-01 fell 73.9% vs the previous month."
+    },
+    {
+      "type": "DECLINING_SALES",
+      "month": "2016-02",
+      "sales": 11951.411,
+      "pct_change_vs_prev_month": -34.24,
+      "severity": "HIGH",
+      "message": "Sales in 2016-02 fell 34.2% vs the previous month."
+    },
+    {
+      "type": "DECLINING_SALES",
+      "month": "2016-10",
+      "sales": 31404.9235,
+      "pct_change_vs_prev_month": -51.38,
+      "severity": "HIGH",
+      "message": "Sales in 2016-10 fell 51.4% vs the previous month."
+    },
+    {
+      "type": "DECLINING_SALES",
+      "month": "2017-01",
+      "sales": 18542.490999999998,
+      "pct_change_vs_prev_month": -75.25,
+      "severity": "HIGH",
+      "message": "Sales in 2017-01 fell 75.3% vs the previous month."
+    },
+    {
+      "type": "DECLINING_SALES",
+      "month": "2018-01",
+      "sales": 43971.374,
+      "pct_change_vs_prev_month": -54.67,
+      "severity": "HIGH",
+      "message": "Sales in 2018-01 fell 54.7% vs the previous month."
+    },
+    {
+      "type": "DECLINING_SALES",
+      "month": "2018-02",
+      "sales": 20301.1334,
+      "pct_change_vs_prev_month": -53.83,
+      "severity": "HIGH",
+      "message": "Sales in 2018-02 fell 53.8% vs the previous month."
+    },
+    {
+      "type": "DECLINING_SALES",
+      "month": "2018-04",
+      "sales": 36521.5361,
+      "pct_change_vs_prev_month": -37.96,
+      "severity": "HIGH",
+      "message": "Sales in 2018-04 fell 38.0% vs the previous month."
+    },
+    {
+      "type": "LOSS_MAKING_SUBCATEGORY",
+      "sub_category": "Tables",
+      "category": "Furniture",
+      "total_profit": -17725.4811,
+      "total_sales": 206965.532,
+      "severity": "HIGH",
+      "message": "Sub-category 'Tables' (under 'Furniture') has a total loss of $-17,725.48."
+    },
+    {
+      "type": "LOSS_MAKING_SUBCATEGORY",
+      "sub_category": "Bookcases",
+      "category": "Furniture",
+      "total_profit": -3472.556,
+      "total_sales": 114879.9963,
+      "severity": "HIGH",
+      "message": "Sub-category 'Bookcases' (under 'Furniture') has a total loss of $-3,472.56."
+    },
+    {
+      "type": "LOSS_MAKING_SUBCATEGORY",
+      "sub_category": "Supplies",
+      "category": "Office Supplies",
+      "total_profit": -1189.0995,
+      "total_sales": 46673.538,
+      "severity": "HIGH",
+      "message": "Sub-category 'Supplies' (under 'Office Supplies') has a total loss of $-1,189.10."
+    },
+    {
+      "type": "DECLINING_SALES",
+      "month": "2015-05",
+      "sales": 23648.287,
+      "pct_change_vs_prev_month": -16.42,
+      "severity": "MEDIUM",
+      "message": "Sales in 2015-05 fell 16.4% vs the previous month."
+    },
+    {
+      "type": "DECLINING_SALES",
+      "month": "2015-08",
+      "sales": 27909.4685,
+      "pct_change_vs_prev_month": -17.78,
+      "severity": "MEDIUM",
+      "message": "Sales in 2015-08 fell 17.8% vs the previous month."
+    },
+    {
+      "type": "DECLINING_SALES",
+      "month": "2016-06",
+      "sales": 24797.292,
+      "pct_change_vs_prev_month": -17.7,
+      "severity": "MEDIUM",
+      "message": "Sales in 2016-06 fell 17.7% vs the previous month."
+    },
+    {
+      "type": "DECLINING_SALES",
+      "month": "2017-04",
+      "sales": 38750.039000000004,
+      "pct_change_vs_prev_month": -25.07,
+      "severity": "MEDIUM",
+      "message": "Sales in 2017-04 fell 25.1% vs the previous month."
+    },
+    {
+      "type": "DECLINING_SALES",
+      "month": "2017-06",
+      "sales": 40344.534,
+      "pct_change_vs_prev_month": -29.2,
+      "severity": "MEDIUM",
+      "message": "Sales in 2017-06 fell 29.2% vs the previous month."
+    },
+    {
+      "type": "DECLINING_SALES",
+      "month": "2017-08",
+      "sales": 31115.3743,
+      "pct_change_vs_prev_month": -20.75,
+      "severity": "MEDIUM",
+      "message": "Sales in 2017-08 fell 20.7% vs the previous month."
+    },
+    {
+      "type": "DECLINING_SALES",
+      "month": "2017-10",
+      "sales": 59687.745,
+      "pct_change_vs_prev_month": -18.69,
+      "severity": "MEDIUM",
+      "message": "Sales in 2017-10 fell 18.7% vs the previous month."
+    },
+    {
+      "type": "DECLINING_SALES",
+      "month": "2018-12",
+      "sales": 83829.3188,
+      "pct_change_vs_prev_month": -29.23,
+      "severity": "MEDIUM",
+      "message": "Sales in 2018-12 fell 29.2% vs the previous month."
+    },
+    {
+      "type": "UNUSUAL_TREND",
+      "month": "2015-09",
+      "sales": 81777.3508,
+      "rolling_mean_6m": 38361.99531666667,
+      "z_score": 2.0,
+      "severity": "MEDIUM",
+      "message": "Sales in 2015-09 were unusually high (z-score=2.00) vs the 6-month rolling mean."
+    },
+    {
+      "type": "LOW_PROFIT_CATEGORY",
+      "category": "Furniture",
+      "total_sales": 741999.7953,
+      "total_profit": 18451.2728,
+      "margin_pct": 2.49,
+      "severity": "MEDIUM",
+      "message": "Category 'Furniture' has a profit margin of 2.49% (below 5.0% threshold)."
+    }
+  ]
+}

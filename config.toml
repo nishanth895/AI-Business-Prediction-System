@@ -1,0 +1,22 @@
+# Streamlit configuration for cloud deployment.
+# Reference: https://docs.streamlit.io/streamlit-community-cloud/get-started
+
+[server]
+headless = true
+port = 8501
+maxUploadSize = 200
+# Streamlit Community Cloud sits behind their own reverse proxy and handles
+# CORS / XSRF for you. These defaults are safe for both local dev and cloud.
+enableCORS = false
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "dark"
+primaryColor = "#4e79a7"
+backgroundColor = "#0e1117"
+secondaryBackgroundColor = "#1e2227"
+textColor = "#fafafa"
+font = "sans serif"

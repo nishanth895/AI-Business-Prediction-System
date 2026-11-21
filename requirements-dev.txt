@@ -1,0 +1,4 @@
+# Development-only dependencies — not installed on Streamlit Community Cloud.
+# Install locally with:  pip install -r requirements-dev.txt
+pytest>=7.4
+playwright>=1.40

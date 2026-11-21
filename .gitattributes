@@ -1,0 +1,11 @@
+# Auto-detect text files and perform LF normalization so the project works
+# identically on Windows, macOS and Linux (and on Streamlit Community Cloud).
+* text=auto eol=lf
+
+# Binary files - never normalize
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.pkl binary
+*.zip binary

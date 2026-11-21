@@ -1,0 +1,11 @@
+[
+  "time_index",
+  "month_num",
+  "quarter",
+  "sales_lag_1",
+  "sales_lag_2",
+  "sales_roll_3",
+  "Quantity",
+  "Orders",
+  "AvgDiscount"
+]
